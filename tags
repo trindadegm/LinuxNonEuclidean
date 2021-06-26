@@ -1,0 +1,432 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AddFace	src/Mesh.cpp	/^void Mesh::AddFace($/;"	f	class:Mesh
+AddPortals	include/Floorplan.h	/^  void AddPortals(PPortalVec& pvec) const {$/;"	f	class:Floorplan
+Angle	include/Vector.h	/^  inline float Angle(const Vector3& b) const {$/;"	f	class:Vector3
+AngleSafe	include/Vector.h	/^  inline float AngleSafe(const Vector3& b) const {$/;"	f	class:Vector3
+AquireMesh	src/Resources.cpp	/^std::shared_ptr<Mesh> AquireMesh(const char* name) {$/;"	f
+AquireShader	src/Resources.cpp	/^std::shared_ptr<Shader> AquireShader(const char* name) {$/;"	f
+AquireTexture	src/Resources.cpp	/^std::shared_ptr<Texture> AquireTexture(const char* name, int rows, int cols) {$/;"	f
+AsPhysical	include/Object.h	/^  const Physical* AsPhysical() const { return const_cast<Object*>(this)->AsPhysical(); }$/;"	f	class:Object
+AsPhysical	include/Object.h	/^  virtual Physical* AsPhysical() { return nullptr; }$/;"	f	class:Object
+BinDir	Makefile	/^BinDir := bin$/;"	m
+BinName	Makefile	/^BinName := test$/;"	m
+BuildDir	Makefile	/^BuildDir := build$/;"	m
+CC	Makefile	/^CC := g++$/;"	m
+CCFlags	Makefile	/^CCFlags := -Wall -g$/;"	m
+CCLibs	Makefile	/^CCLibs := -lSDL2 -lGLEW -lGL -lGLU$/;"	m
+CamOffset	src/Player.cpp	/^Vector3 Player::CamOffset() const {$/;"	f	class:Player
+CamToWorld	src/Player.cpp	/^Matrix4 Player::CamToWorld() const {$/;"	f	class:Player
+Camera	include/Camera.h	/^class Camera {$/;"	c
+Camera	src/Camera.cpp	/^Camera::Camera() :$/;"	f	class:Camera
+ClipMag	include/Vector.h	/^  inline void ClipMag(float m) {$/;"	f	class:Vector3
+ClipOblique	src/Camera.cpp	/^void Camera::ClipOblique(const Vector3& pos, const Vector3& normal) {$/;"	f	class:Camera
+Collide	src/Collider.cpp	/^bool Collider::Collide(const Matrix4& localToUnit, Vector3& delta) const {$/;"	f	class:Collider
+Collider	include/Collider.h	/^class Collider {$/;"	c
+Collider	src/Collider.cpp	/^Collider::Collider(const Vector3& a, const Vector3& b, const Vector3& c) {$/;"	f	class:Collider
+ConfineCursor	src/Engine.cpp	/^void Engine::ConfineCursor() {$/;"	f	class:Engine
+Connect	src/Portal.cpp	/^void Portal::Connect(Warp& a, Warp& b) {$/;"	f	class:Portal
+Connect	src/Portal.cpp	/^void Portal::Connect(std::shared_ptr<Portal>& a, std::shared_ptr<Portal>& b) {$/;"	f	class:Portal
+CreateGLWindow	src/Engine.cpp	/^void Engine::CreateGLWindow() {$/;"	f	class:Engine
+CreateSorted	src/Collider.cpp	/^void Collider::CreateSorted(const Vector3& da, const Vector3& c, const Vector3& db) {$/;"	f	class:Collider
+Cross	include/Vector.h	/^  inline Vector3 Cross(const Vector3& b) const {$/;"	f	class:Vector3
+DebugDraw	src/Collider.cpp	/^void Collider::DebugDraw(const Camera& cam, const Matrix4& objMat) {$/;"	f	class:Collider
+DebugDraw	src/Mesh.cpp	/^void Mesh::DebugDraw(const Camera& cam, const Matrix4& objMat) {$/;"	f	class:Mesh
+DebugDraw	src/Object.cpp	/^void Object::DebugDraw(const Camera& cam) {$/;"	f	class:Object
+DepsDir	Makefile	/^DepsDir := deps$/;"	m
+DestroyGLObjects	src/Engine.cpp	/^void Engine::DestroyGLObjects() {$/;"	f	class:Engine
+DistTo	src/Portal.cpp	/^float Portal::DistTo(const Vector3& pt) const {$/;"	f	class:Portal
+Dot	include/Vector.h	/^  inline float Dot(const Vector3& b) const {$/;"	f	class:Vector3
+Dot	include/Vector.h	/^  inline float Dot(const Vector4& b) const { return x*b.x + y*b.y + z*b.z + w*b.w; }$/;"	f	class:Vector4
+Draw	include/Sky.h	/^  void Draw(const Camera& cam) {$/;"	f	class:Sky
+Draw	src/Mesh.cpp	/^void Mesh::Draw() {$/;"	f	class:Mesh
+Draw	src/Object.cpp	/^void Object::Draw(const Camera& cam, uint32_t curFBO) {$/;"	f	class:Object
+Draw	src/Portal.cpp	/^void Portal::Draw(const Camera& cam, GLuint curFBO) {$/;"	f	class:Portal
+DrawPink	src/Portal.cpp	/^void Portal::DrawPink(const Camera& cam) {$/;"	f	class:Portal
+EndFrame	src/Input.cpp	/^void Input::EndFrame() {$/;"	f	class:Input
+Engine	include/Engine.h	/^class Engine {$/;"	c
+Engine	src/Engine.cpp	/^Engine::Engine() : window(NULL), glContext(NULL) { \/\/hWnd(NULL), hDC(NULL), hRC(NULL) {$/;"	f	class:Engine
+Fill	include/Vector.h	/^  inline void Fill(float b) {$/;"	f	class:Matrix4
+Floorplan	include/Floorplan.h	/^  Floorplan() {$/;"	f	class:Floorplan
+Floorplan	include/Floorplan.h	/^class Floorplan : public Object {$/;"	c
+Forward	src/Object.cpp	/^Vector3 Object::Forward() const {$/;"	f	class:Object
+FrameBuffer	include/FrameBuffer.h	/^class FrameBuffer {$/;"	c
+FrameBuffer	src/FrameBuffer.cpp	/^FrameBuffer::FrameBuffer() {$/;"	f	class:FrameBuffer
+GH_BOB_DAMP	include/GameHeader.h	/^static const float GH_BOB_DAMP = 0.04f;$/;"	v
+GH_BOB_FREQ	include/GameHeader.h	/^static const float GH_BOB_FREQ = 8.0f;$/;"	v
+GH_BOB_MIN	include/GameHeader.h	/^static const float GH_BOB_MIN = 0.1f;$/;"	v
+GH_BOB_OFFS	include/GameHeader.h	/^static const float GH_BOB_OFFS = 0.015f;$/;"	v
+GH_CLAMP	include/GameHeader.h	/^inline T GH_CLAMP(T a, T mn, T mx) {$/;"	f
+GH_CLASS	include/GameHeader.h	/^static const char GH_CLASS[] = "NED";$/;"	v
+GH_DT	include/GameHeader.h	/^static const float GH_DT = 0.002f;$/;"	v
+GH_ENGINE	src/Engine.cpp	/^Engine* GH_ENGINE = nullptr;$/;"	v
+GH_FAR	include/GameHeader.h	/^static const float GH_FAR = 100.0f;$/;"	v
+GH_FBO_SIZE	include/GameHeader.h	/^static const int GH_FBO_SIZE = 2048;$/;"	v
+GH_FOV	include/GameHeader.h	/^static const float GH_FOV = 60.0f;$/;"	v
+GH_FRAME	src/Engine.cpp	/^int64_t GH_FRAME = 0;$/;"	v
+GH_GRAVITY	include/GameHeader.h	/^static const float GH_GRAVITY = -9.8f;$/;"	v
+GH_HIDE_MOUSE	include/GameHeader.h	/^static const bool GH_HIDE_MOUSE = true;$/;"	v
+GH_INPUT	src/Engine.cpp	/^const Input* GH_INPUT = nullptr;$/;"	v
+GH_MAX	include/GameHeader.h	/^inline T GH_MAX(T a, T b) {$/;"	f
+GH_MAX_PORTALS	include/GameHeader.h	/^static const int GH_MAX_PORTALS = 16;$/;"	v
+GH_MAX_RECURSION	include/GameHeader.h	/^static const int GH_MAX_RECURSION = 4;$/;"	v
+GH_MAX_STEPS	include/GameHeader.h	/^static const int GH_MAX_STEPS = 30;$/;"	v
+GH_MIN	include/GameHeader.h	/^inline T GH_MIN(T a, T b) {$/;"	f
+GH_MOUSE_SENSITIVITY	include/GameHeader.h	/^static const float GH_MOUSE_SENSITIVITY = 0.005f;$/;"	v
+GH_MOUSE_SMOOTH	include/GameHeader.h	/^static const float GH_MOUSE_SMOOTH = 0.5f;$/;"	v
+GH_NEAR_MAX	include/GameHeader.h	/^static const float GH_NEAR_MAX = 1e-1f;$/;"	v
+GH_NEAR_MIN	include/GameHeader.h	/^static const float GH_NEAR_MIN = 1e-3f;$/;"	v
+GH_PI	include/GameHeader.h	/^static const float GH_PI = 3.141592653589793f;$/;"	v
+GH_PLAYER	src/Engine.cpp	/^Player* GH_PLAYER = nullptr;$/;"	v
+GH_PLAYER_HEIGHT	include/GameHeader.h	/^static const float GH_PLAYER_HEIGHT = 1.5f;$/;"	v
+GH_PLAYER_RADIUS	include/GameHeader.h	/^static const float GH_PLAYER_RADIUS = 0.2f;$/;"	v
+GH_REC_LEVEL	src/Engine.cpp	/^int GH_REC_LEVEL = 0;$/;"	v
+GH_SCREEN_HEIGHT	include/GameHeader.h	/^static const int GH_SCREEN_HEIGHT = 720;$/;"	v
+GH_SCREEN_WIDTH	include/GameHeader.h	/^static const int GH_SCREEN_WIDTH = 1280;$/;"	v
+GH_SCREEN_X	include/GameHeader.h	/^static const int GH_SCREEN_X = 50;$/;"	v
+GH_SCREEN_Y	include/GameHeader.h	/^static const int GH_SCREEN_Y = 50;$/;"	v
+GH_START_FULLSCREEN	include/GameHeader.h	/^static const bool GH_START_FULLSCREEN = false;$/;"	v
+GH_TITLE	include/GameHeader.h	/^static const char GH_TITLE[] = "NonEuclideanDemo";$/;"	v
+GH_USE_SKY	include/GameHeader.h	/^static const bool GH_USE_SKY = true;$/;"	v
+GH_WALK_ACCEL	include/GameHeader.h	/^static const float GH_WALK_ACCEL = 50.0f;$/;"	v
+GH_WALK_SPEED	include/GameHeader.h	/^static const float GH_WALK_SPEED = 2.9f;$/;"	v
+GetBump	src/Portal.cpp	/^Vector3 Portal::GetBump(const Vector3& a) const {$/;"	f	class:Portal
+GetPlayer	include/Engine.h	/^  const Player& GetPlayer() const { return *player; }$/;"	f	class:Engine
+GetTicks	include/Timer.h	/^  int64_t GetTicks() {$/;"	f	class:Timer
+Ground	include/Ground.h	/^  Ground(bool slope=false) {$/;"	f	class:Ground
+Ground	include/Ground.h	/^class Ground : public Object {$/;"	c
+HeaderExt	Makefile	/^HeaderExt := h$/;"	m
+Homogenized	include/Vector.h	/^  inline Vector3 Homogenized() const { return Vector3(x\/w, y\/w, z\/w); }$/;"	f	class:Vector4
+House	include/House.h	/^  House(const char* tex) {$/;"	f	class:House
+House	include/House.h	/^class House : public Object {$/;"	c
+Identity	include/Vector.h	/^  inline static Matrix4 Identity() { Matrix4 m; m.MakeIdentity(); return m; }$/;"	f	class:Matrix4
+IncludeDir	Makefile	/^IncludeDir := include$/;"	m
+InitGLObjects	src/Engine.cpp	/^void Engine::InitGLObjects() {$/;"	f	class:Engine
+Input	include/Input.h	/^class Input {$/;"	c
+Input	src/Input.cpp	/^Input::Input() {$/;"	f	class:Input
+Intersects	src/Portal.cpp	/^const Portal::Warp* Portal::Intersects(const Vector3& a, const Vector3& b, const Vector3& bump) const {$/;"	f	class:Portal
+Inverse	include/Vector.h	/^  Matrix4 Inverse() const {$/;"	f	class:Matrix4
+InverseProjection	src/Camera.cpp	/^Matrix4 Camera::InverseProjection() const {$/;"	f	class:Camera
+IsNDC	include/Vector.h	/^  inline bool IsNDC() const {$/;"	f	class:Vector3
+Level1	include/Level1.h	/^class Level1 : public Scene {$/;"	c
+Level2	include/Level2.h	/^  Level2(int rooms) : num_rooms(rooms) {}$/;"	f	class:Level2
+Level2	include/Level2.h	/^class Level2 : public Scene {$/;"	c
+Level3	include/Level3.h	/^class Level3 : public Scene {$/;"	c
+Level4	include/Level4.h	/^class Level4 : public Scene {$/;"	c
+Level5	include/Level5.h	/^class Level5 : public Scene {$/;"	c
+Level6	include/Level6.h	/^class Level6 : public Scene {$/;"	c
+LibsDir	Makefile	/^LibsDir := libs$/;"	m
+Load	src/Level1.cpp	/^void Level1::Load(PObjectVec& objs, PPortalVec& portals, Player& player) {$/;"	f	class:Level1
+Load	src/Level2.cpp	/^void Level2::Load(PObjectVec& objs, PPortalVec& portals, Player& player) {$/;"	f	class:Level2
+Load	src/Level3.cpp	/^void Level3::Load(PObjectVec& objs, PPortalVec& portals, Player& player) {$/;"	f	class:Level3
+Load	src/Level4.cpp	/^void Level4::Load(PObjectVec& objs, PPortalVec& portals, Player& player) {$/;"	f	class:Level4
+Load	src/Level5.cpp	/^void Level5::Load(PObjectVec& objs, PPortalVec& portals, Player& player) {$/;"	f	class:Level5
+Load	src/Level6.cpp	/^void Level6::Load(PObjectVec& objs, PPortalVec& portals, Player& player) {$/;"	f	class:Level6
+LoadScene	src/Engine.cpp	/^void Engine::LoadScene(int ix) {$/;"	f	class:Engine
+LoadShader	src/Shader.cpp	/^GLuint Shader::LoadShader(const char* fname, GLenum type) {$/;"	f	class:Shader
+LocalToUnit	include/Sphere.h	/^  Matrix4 LocalToUnit() const {$/;"	f	class:Sphere
+LocalToWorld	src/Object.cpp	/^Matrix4 Object::LocalToWorld() const {$/;"	f	class:Object
+Look	src/Player.cpp	/^void Player::Look(float mouseDx, float mouseDy) {$/;"	f	class:Player
+Mag	include/Vector.h	/^  inline float Mag() const {$/;"	f	class:Vector3
+MagSq	include/Vector.h	/^  inline float MagSq() const {$/;"	f	class:Vector3
+MakeIdentity	include/Vector.h	/^  inline void MakeIdentity() {$/;"	f	class:Matrix4
+MakeRotX	include/Vector.h	/^  inline void MakeRotX(float a) {$/;"	f	class:Matrix4
+MakeRotY	include/Vector.h	/^  inline void MakeRotY(float a) {$/;"	f	class:Matrix4
+MakeRotZ	include/Vector.h	/^  inline void MakeRotZ(float a) {$/;"	f	class:Matrix4
+MakeScale	include/Vector.h	/^  inline void MakeScale(const Vector3& s) {$/;"	f	class:Matrix4
+MakeTrans	include/Vector.h	/^  inline void MakeTrans(const Vector3& t) {$/;"	f	class:Matrix4
+MakeZero	include/Vector.h	/^  inline void MakeZero() {$/;"	f	class:Matrix4
+Matrix	src/Camera.cpp	/^Matrix4 Camera::Matrix() const {$/;"	f	class:Camera
+Matrix4	include/Vector.h	/^  Matrix4() {}$/;"	f	class:Matrix4
+Matrix4	include/Vector.h	/^  explicit Matrix4(float b) { Fill(b); }$/;"	f	class:Matrix4
+Matrix4	include/Vector.h	/^class Matrix4 {$/;"	c
+Mesh	include/Mesh.h	/^class Mesh {$/;"	c
+Mesh	src/Mesh.cpp	/^Mesh::Mesh(const char* fname) {$/;"	f	class:Mesh
+Move	src/Player.cpp	/^void Player::Move(float moveF, float moveL) {$/;"	f	class:Player
+MulDirection	include/Vector.h	/^  Vector3 MulDirection(const Vector3& b) const {$/;"	f	class:Matrix4
+MulPoint	include/Vector.h	/^  Vector3 MulPoint(const Vector3& b) const {$/;"	f	class:Matrix4
+NORMAL	include/Tunnel.h	/^    NORMAL = 0,$/;"	e	enum:Tunnel::Type
+NUM_VBOS	include/Mesh.h	/^  static const int NUM_VBOS = 3;$/;"	m	class:Mesh
+NearestPortalDist	src/Engine.cpp	/^float Engine::NearestPortalDist() const {$/;"	f	class:Engine
+Normalize	include/Vector.h	/^  inline void Normalize() {$/;"	f	class:Vector3
+NormalizeSafe	include/Vector.h	/^  inline void NormalizeSafe() {$/;"	f	class:Vector3
+Normalized	include/Vector.h	/^  inline Vector3 Normalized() const {$/;"	f	class:Vector3
+NormalizedSafe	include/Vector.h	/^  inline Vector3 NormalizedSafe() const {$/;"	f	class:Vector3
+ObjFiles	Makefile	/^ObjFiles := $(patsubst $(SrcDir)\/%.$(SrcExt), $(BuildDir)\/%.o, $(SrcFiles))$/;"	m
+Object	include/Object.h	/^class Object {$/;"	c
+Object	src/Object.cpp	/^Object::Object() :$/;"	f	class:Object
+OnCollide	src/Physical.cpp	/^void Physical::OnCollide(Object& other, const Vector3& push) {$/;"	f	class:Physical
+OnCollide	src/Player.cpp	/^void Player::OnCollide(Object& other, const Vector3& push) {$/;"	f	class:Player
+OnHit	include/Object.h	/^  virtual void OnHit(Object& other, Vector3& push) {};$/;"	f	class:Object
+Ones	include/Vector.h	/^  inline static Vector3 Ones() { return Vector3(1.0f); }$/;"	f	class:Vector3
+PObjectVec	include/Object.h	/^typedef std::vector<std::shared_ptr<Object>> PObjectVec;$/;"	t
+PPortalVec	include/Portal.h	/^typedef std::vector<std::shared_ptr<Portal>> PPortalVec;$/;"	t
+Physical	include/Physical.h	/^class Physical : public Object {$/;"	c
+Physical	src/Physical.cpp	/^Physical::Physical() {$/;"	f	class:Physical
+Pillar	include/Pillar.h	/^  Pillar() {$/;"	f	class:Pillar
+Pillar	include/Pillar.h	/^class Pillar : public Object {$/;"	c
+PillarRoom	include/PillarRoom.h	/^  PillarRoom() {$/;"	f	class:PillarRoom
+PillarRoom	include/PillarRoom.h	/^class PillarRoom : public Object {$/;"	c
+Player	include/Player.h	/^class Player : public Physical {$/;"	c
+Player	src/Player.cpp	/^Player::Player() {$/;"	f	class:Player
+Portal	include/Portal.h	/^class Portal : public Object {$/;"	c
+Portal	src/Portal.cpp	/^Portal::Portal() : front(this), back(this) {$/;"	f	class:Portal
+Render	src/Engine.cpp	/^void Engine::Render(const Camera& cam, GLuint curFBO, const Portal* skipPortal) {$/;"	f	class:Engine
+Render	src/FrameBuffer.cpp	/^void FrameBuffer::Render(const Camera& cam, GLuint curFBO, const Portal* skipPortal) {$/;"	f	class:FrameBuffer
+Reset	src/Object.cpp	/^void Object::Reset() {$/;"	f	class:Object
+Reset	src/Physical.cpp	/^void Physical::Reset() {$/;"	f	class:Physical
+Reset	src/Player.cpp	/^void Player::Reset() {$/;"	f	class:Player
+RotX	include/Vector.h	/^  inline static Matrix4 RotX(float a) { Matrix4 m; m.MakeRotX(a); return m; }$/;"	f	class:Matrix4
+RotY	include/Vector.h	/^  inline static Matrix4 RotY(float a) { Matrix4 m; m.MakeRotY(a); return m; }$/;"	f	class:Matrix4
+RotZ	include/Vector.h	/^  inline static Matrix4 RotZ(float a) { Matrix4 m; m.MakeRotZ(a); return m; }$/;"	f	class:Matrix4
+Run	src/Engine.cpp	/^int Engine::Run() {$/;"	f	class:Engine
+SCALE	include/Tunnel.h	/^    SCALE = 1,$/;"	e	enum:Tunnel::Type
+SLOPE	include/Tunnel.h	/^    SLOPE = 2,$/;"	e	enum:Tunnel::Type
+Scale	include/Vector.h	/^  inline Vector3 Scale() const {$/;"	f	class:Matrix4
+Scale	include/Vector.h	/^  inline static Matrix4 Scale(const Vector3& s) { Matrix4 m; m.MakeScale(s); return m; }$/;"	f	class:Matrix4
+Scale	include/Vector.h	/^  inline static Matrix4 Scale(float s) { Matrix4 m; m.MakeScale(Vector3(s)); return m; }$/;"	f	class:Matrix4
+Scene	include/Scene.h	/^class Scene {$/;"	c
+SecondsToTicks	include/Timer.h	/^  int64_t SecondsToTicks(float s) {$/;"	f	class:Timer
+Set	include/Vector.h	/^  inline void Set(float _x, float _y, float _z) { x = _x; y = _y; z = _z; }$/;"	f	class:Vector3
+SetDoor1	include/House.h	/^  void SetDoor1(Object& portal) const {$/;"	f	class:House
+SetDoor1	include/Tunnel.h	/^  void SetDoor1(Object& portal) const {$/;"	f	class:Tunnel
+SetDoor2	include/House.h	/^  void SetDoor2(Object& portal) const {$/;"	f	class:House
+SetDoor2	include/Tunnel.h	/^  void SetDoor2(Object& portal) const {$/;"	f	class:Tunnel
+SetDoor3	include/House.h	/^  void SetDoor3(Object& portal) const {$/;"	f	class:House
+SetDoor4	include/House.h	/^  void SetDoor4(Object& portal) const {$/;"	f	class:House
+SetMVP	src/Shader.cpp	/^void Shader::SetMVP(const float* mvp, const float* mv) {$/;"	f	class:Shader
+SetOnes	include/Vector.h	/^  inline void SetOnes() { x = 1.0f; y = 1.0f; z = 1.0f; }$/;"	f	class:Vector3
+SetPortal	include/PillarRoom.h	/^  void SetPortal(Object& portal) const {$/;"	f	class:PillarRoom
+SetPosition	include/Physical.h	/^  void SetPosition(const Vector3& _pos) {$/;"	f	class:Physical
+SetPositionOrientation	src/Camera.cpp	/^void Camera::SetPositionOrientation(const Vector3& pos, float rotX, float rotY) {$/;"	f	class:Camera
+SetScale	include/Vector.h	/^  inline void SetScale(const Vector3& s) {$/;"	f	class:Matrix4
+SetSize	src/Camera.cpp	/^void Camera::SetSize(int w, int h, float n, float f) {$/;"	f	class:Camera
+SetTranslation	include/Vector.h	/^  inline void SetTranslation(const Vector3& t) {$/;"	f	class:Matrix4
+SetUnitX	include/Vector.h	/^  inline void SetUnitX() { x = 1.0f; y = 0.0f; z = 0.0f; }$/;"	f	class:Vector3
+SetUnitY	include/Vector.h	/^  inline void SetUnitY() { x = 0.0f; y = 1.0f; z = 0.0f; }$/;"	f	class:Vector3
+SetUnitZ	include/Vector.h	/^  inline void SetUnitZ() { x = 0.0f; y = 0.0f; z = 1.0f; }$/;"	f	class:Vector3
+SetXAxis	include/Vector.h	/^  inline void SetXAxis(const Vector3& t) {$/;"	f	class:Matrix4
+SetYAxis	include/Vector.h	/^  inline void SetYAxis(const Vector3& t) {$/;"	f	class:Matrix4
+SetZAxis	include/Vector.h	/^  inline void SetZAxis(const Vector3& t) {$/;"	f	class:Matrix4
+SetZero	include/Vector.h	/^  inline void SetZero() { x = 0.0f; y = 0.0f; z = 0.0f; }$/;"	f	class:Vector3
+SetupInputs	src/Engine.cpp	/^void Engine::SetupInputs() {$/;"	f	class:Engine
+Shader	include/Shader.h	/^class Shader {$/;"	c
+Shader	src/Shader.cpp	/^Shader::Shader(const char* name) {$/;"	f	class:Shader
+Sky	include/Sky.h	/^  Sky() {$/;"	f	class:Sky
+Sky	include/Sky.h	/^class Sky {$/;"	c
+Sphere	include/Sphere.h	/^  Sphere(const Vector3& pos, float r) : center(pos), radius(r) {}$/;"	f	class:Sphere
+Sphere	include/Sphere.h	/^  Sphere(float r=1.0f) : center(0.0f), radius(r) {}$/;"	f	class:Sphere
+Sphere	include/Sphere.h	/^class Sphere {$/;"	c
+SrcDir	Makefile	/^SrcDir := src$/;"	m
+SrcExt	Makefile	/^SrcExt := cpp$/;"	m
+SrcFiles	Makefile	/^SrcFiles := $(shell find $(SrcDir) -type f -name "*.$(SrcExt)")$/;"	m
+Start	include/Timer.h	/^  void Start() {$/;"	f	class:Timer
+Statue	include/Statue.h	/^  Statue(const char* model) {$/;"	f	class:Statue
+Statue	include/Statue.h	/^class Statue : public Object {$/;"	c
+Stop	include/Timer.h	/^  float Stop() {$/;"	f	class:Timer
+StopStart	include/Timer.h	/^  float StopStart() {$/;"	f	class:Timer
+Stretch	include/Vector.h	/^  inline void Stretch(const Vector3& s) {$/;"	f	class:Matrix4
+Texture	include/Texture.h	/^class Texture {$/;"	c
+Texture	src/Texture.cpp	/^Texture::Texture(const char* fname, int rows, int cols) {$/;"	f	class:Texture
+Timer	include/Timer.h	/^  Timer() {$/;"	f	class:Timer
+Timer	include/Timer.h	/^class Timer {$/;"	c
+ToggleFullscreen	src/Engine.cpp	/^void Engine::ToggleFullscreen() {$/;"	f	class:Engine
+Trans	include/Vector.h	/^  inline static Matrix4 Trans(const Vector3& t) { Matrix4 m; m.MakeTrans(t); return m; }$/;"	f	class:Matrix4
+Translate	include/Vector.h	/^  inline void Translate(const Vector3& t) {$/;"	f	class:Matrix4
+Translation	include/Vector.h	/^  inline Vector3 Translation() const {$/;"	f	class:Matrix4
+Transposed	include/Vector.h	/^  inline Matrix4 Transposed() const {$/;"	f	class:Matrix4
+TryPortal	src/Physical.cpp	/^bool Physical::TryPortal(const Portal& portal) {$/;"	f	class:Physical
+Tunnel	include/Tunnel.h	/^  Tunnel(Type type) : type(type) {$/;"	f	class:Tunnel
+Tunnel	include/Tunnel.h	/^class Tunnel : public Object {$/;"	c
+Type	include/Tunnel.h	/^  enum Type {$/;"	g	class:Tunnel
+UnitToLocal	include/Sphere.h	/^  Matrix4 UnitToLocal() const {$/;"	f	class:Sphere
+UnitX	include/Vector.h	/^  inline static Vector3 UnitX() { return Vector3(1, 0, 0); }$/;"	f	class:Vector3
+UnitY	include/Vector.h	/^  inline static Vector3 UnitY() { return Vector3(0, 1, 0); }$/;"	f	class:Vector3
+UnitZ	include/Vector.h	/^  inline static Vector3 UnitZ() { return Vector3(0, 0, 1); }$/;"	f	class:Vector3
+Unload	include/Scene.h	/^  virtual void Unload() {};$/;"	f	class:Scene
+Update	include/Object.h	/^  virtual void Update() {};$/;"	f	class:Object
+Update	src/Engine.cpp	/^void Engine::Update() {$/;"	f	class:Engine
+Update	src/Physical.cpp	/^void Physical::Update() {$/;"	f	class:Physical
+Update	src/Player.cpp	/^void Player::Update() {$/;"	f	class:Player
+UpdateRaw	src/Input.cpp	/^void Input::UpdateRaw(const SDL_Event* event) {$/;"	f	class:Input
+Use	src/FrameBuffer.cpp	/^void FrameBuffer::Use() {$/;"	f	class:FrameBuffer
+Use	src/Shader.cpp	/^void Shader::Use() {$/;"	f	class:Shader
+Use	src/Texture.cpp	/^void Texture::Use() {$/;"	f	class:Texture
+UseViewport	src/Camera.cpp	/^void Camera::UseViewport() const {$/;"	f	class:Camera
+Vector3	include/Vector.h	/^  Vector3() {}$/;"	f	class:Vector3
+Vector3	include/Vector.h	/^  explicit Vector3(const float* b) : x(b[0]), y(b[1]), z(b[2]) {}$/;"	f	class:Vector3
+Vector3	include/Vector.h	/^  explicit Vector3(float b) : x(b), y(b), z(b) {}$/;"	f	class:Vector3
+Vector3	include/Vector.h	/^  explicit Vector3(float x, float y, float z) : x(x), y(y), z(z) {}$/;"	f	class:Vector3
+Vector3	include/Vector.h	/^class Vector3 {$/;"	c
+Vector4	include/Vector.h	/^  Vector4() {}$/;"	f	class:Vector4
+Vector4	include/Vector.h	/^  explicit Vector4(const Vector3& xyz, float w) : x(xyz.x), y(xyz.y), z(xyz.z), w(w) {}$/;"	f	class:Vector4
+Vector4	include/Vector.h	/^  explicit Vector4(float b) : x(b), y(b), z(b), w(b) {}$/;"	f	class:Vector4
+Vector4	include/Vector.h	/^  explicit Vector4(float x, float y, float z, float w) : x(x), y(y), z(z), w(w) {}$/;"	f	class:Vector4
+Vector4	include/Vector.h	/^class Vector4 {$/;"	c
+Warp	include/Portal.h	/^    Warp(const Portal* fromPortal) : fromPortal(fromPortal), toPortal(nullptr) {$/;"	f	struct:Portal::Warp
+Warp	include/Portal.h	/^  struct Warp {$/;"	s	class:Portal
+WorldToCam	src/Player.cpp	/^Matrix4 Player::WorldToCam() const {$/;"	f	class:Player
+WorldToLocal	src/Object.cpp	/^Matrix4 Object::WorldToLocal() const {$/;"	f	class:Object
+XAxis	include/Vector.h	/^  inline Vector3 XAxis() const {$/;"	f	class:Matrix4
+XYZ	include/Vector.h	/^  inline Vector3 XYZ() const { return Vector3(x, y, z); }$/;"	f	class:Vector4
+XYZNormalized	include/Vector.h	/^  inline Vector3 XYZNormalized() const { return Vector3(x, y, z).Normalized(); }$/;"	f	class:Vector4
+YAxis	include/Vector.h	/^  inline Vector3 YAxis() const {$/;"	f	class:Matrix4
+ZAxis	include/Vector.h	/^  inline Vector3 ZAxis() const {$/;"	f	class:Matrix4
+Zero	include/Vector.h	/^  inline static Matrix4 Zero() { Matrix4 m; m.MakeZero(); return m; }$/;"	f	class:Matrix4
+Zero	include/Vector.h	/^  inline static Vector3 Zero() { return Vector3(0.0f); }$/;"	f	class:Vector3
+_CRT_SECURE_NO_WARNINGS	src/Main.cpp	1;"	d	file:
+attribs	include/Shader.h	/^  std::vector<std::string> attribs;$/;"	m	class:Shader
+back	include/Portal.h	/^  Warp back;$/;"	m	class:Portal
+bob_mag	include/Player.h	/^  float bob_mag;$/;"	m	class:Player
+bob_phi	include/Player.h	/^  float bob_phi;$/;"	m	class:Player
+bounce	include/Physical.h	/^  float bounce;$/;"	m	class:Physical
+cam_rx	include/Player.h	/^  float cam_rx;$/;"	m	class:Player
+cam_ry	include/Player.h	/^  float cam_ry;$/;"	m	class:Player
+center	include/Sphere.h	/^  Vector3 center;$/;"	m	class:Sphere
+colliders	include/Mesh.h	/^  std::vector<Collider> colliders;$/;"	m	class:Mesh
+curScene	include/Engine.h	/^  std::shared_ptr<Scene> curScene;$/;"	m	class:Engine
+delta	include/Portal.h	/^    Matrix4 delta;$/;"	m	struct:Portal::Warp
+deltaInv	include/Portal.h	/^    Matrix4 deltaInv;$/;"	m	struct:Portal::Warp
+drag	include/Physical.h	/^  float drag;$/;"	m	class:Physical
+errShader	include/Portal.h	/^  std::shared_ptr<Shader> errShader;$/;"	m	class:Portal
+euler	include/Object.h	/^  Vector3 euler;$/;"	m	class:Object
+far	include/Camera.h	/^  float far;$/;"	m	class:Camera
+fbo	include/FrameBuffer.h	/^  GLuint fbo;$/;"	m	class:FrameBuffer
+fragId	include/Shader.h	/^  GLuint fragId;$/;"	m	class:Shader
+frameBuf	include/Portal.h	/^  FrameBuffer frameBuf[GH_MAX_RECURSION <= 1 ? 1 : GH_MAX_RECURSION - 1];$/;"	m	class:Portal
+friction	include/Physical.h	/^  float friction;$/;"	m	class:Physical
+fromPortal	include/Portal.h	/^    const Portal* fromPortal;$/;"	m	struct:Portal::Warp
+front	include/Portal.h	/^  Warp front;$/;"	m	class:Portal
+glContext	include/Engine.h	/^  SDL_GLContext glContext;  \/\/ OpenGL context$/;"	m	class:Engine
+gravity	include/Physical.h	/^  Vector3 gravity;$/;"	m	class:Physical
+height	include/Camera.h	/^  int height;$/;"	m	class:Camera
+high_friction	include/Physical.h	/^  float high_friction;$/;"	m	class:Physical
+hitSpheres	include/Physical.h	/^  std::vector<Sphere> hitSpheres;$/;"	m	class:Physical
+iHeight	include/Engine.h	/^  int iHeight;        \/\/ window height$/;"	m	class:Engine
+iWidth	include/Engine.h	/^  int iWidth;         \/\/ window width$/;"	m	class:Engine
+input	include/Engine.h	/^  Input input;$/;"	m	class:Engine
+is3D	include/Texture.h	/^  bool is3D;$/;"	m	class:Texture
+isFullscreen	include/Engine.h	/^  bool isFullscreen;   \/\/ fullscreen state$/;"	m	class:Engine
+key	include/Input.h	/^  bool key[256];$/;"	m	class:Input
+key_press	include/Input.h	/^  bool key_press[256];$/;"	m	class:Input
+m	include/Vector.h	/^  float m[16];$/;"	m	class:Matrix4
+main	src/Main.cpp	/^int main(int argc, char *argv[]) {$/;"	f
+main_cam	include/Engine.h	/^  Camera main_cam;$/;"	m	class:Engine
+mat	include/Collider.h	/^  Matrix4 mat;$/;"	m	class:Collider
+mesh	include/Object.h	/^  std::shared_ptr<Mesh> mesh;$/;"	m	class:Object
+mesh	include/Sky.h	/^  std::shared_ptr<Mesh> mesh;$/;"	m	class:Sky
+mouse_button	include/Input.h	/^  bool mouse_button[3];$/;"	m	class:Input
+mouse_button_press	include/Input.h	/^  bool mouse_button_press[3];$/;"	m	class:Input
+mouse_ddx	include/Input.h	/^  float mouse_ddx;$/;"	m	class:Input
+mouse_ddy	include/Input.h	/^  float mouse_ddy;$/;"	m	class:Input
+mouse_dx	include/Input.h	/^  float mouse_dx;$/;"	m	class:Input
+mouse_dy	include/Input.h	/^  float mouse_dy;$/;"	m	class:Input
+mvId	include/Shader.h	/^  GLuint mvId;$/;"	m	class:Shader
+mvpId	include/Shader.h	/^  GLuint mvpId;$/;"	m	class:Shader
+near	include/Camera.h	/^  float near;$/;"	m	class:Camera
+normals	include/Mesh.h	/^  std::vector<float> normals;$/;"	m	class:Mesh
+num_rooms	include/Level2.h	/^  int num_rooms;$/;"	m	class:Level2
+occlusionCullingSupported	include/Engine.h	/^  GLint occlusionCullingSupported;$/;"	m	class:Engine
+onGround	include/Player.h	/^  bool onGround;$/;"	m	class:Player
+operator *	include/Vector.h	/^  Matrix4 operator*(const Matrix4& b) const {$/;"	f	class:Matrix4
+operator *	include/Vector.h	/^  Vector4 operator*(const Vector4& b) const {$/;"	f	class:Matrix4
+operator *	include/Vector.h	/^  inline Vector3 operator*(const Vector3& b) const {$/;"	f	class:Vector3
+operator *	include/Vector.h	/^  inline Vector3 operator*(float b) const {$/;"	f	class:Vector3
+operator *	include/Vector.h	/^  inline Vector4 operator*(float b) const {$/;"	f	class:Vector4
+operator *=	include/Vector.h	/^  inline void operator*=(const Vector3& b) {$/;"	f	class:Vector3
+operator *=	include/Vector.h	/^  inline void operator*=(float b) {$/;"	f	class:Matrix4
+operator *=	include/Vector.h	/^  inline void operator*=(float b) {$/;"	f	class:Vector3
+operator *=	include/Vector.h	/^  inline void operator*=(float b) {$/;"	f	class:Vector4
+operator *=	include/Vector.h	/^  void operator*=(const Matrix4& b) {$/;"	f	class:Matrix4
+operator +	include/Vector.h	/^  inline Matrix4 operator+(const Matrix4& b) const {$/;"	f	class:Matrix4
+operator +	include/Vector.h	/^  inline Vector3 operator+(const Vector3& b) const {$/;"	f	class:Vector3
+operator +	include/Vector.h	/^  inline Vector3 operator+(float b) const {$/;"	f	class:Vector3
+operator +=	include/Vector.h	/^  inline void operator+=(const Matrix4& b) {$/;"	f	class:Matrix4
+operator +=	include/Vector.h	/^  inline void operator+=(const Vector3& b) {$/;"	f	class:Vector3
+operator +=	include/Vector.h	/^  inline void operator+=(float b) {$/;"	f	class:Vector3
+operator -	include/Vector.h	/^  inline Matrix4 operator-(const Matrix4& b) const {$/;"	f	class:Matrix4
+operator -	include/Vector.h	/^  inline Vector3 operator-() const {$/;"	f	class:Vector3
+operator -	include/Vector.h	/^  inline Vector3 operator-(const Vector3& b) const {$/;"	f	class:Vector3
+operator -	include/Vector.h	/^  inline Vector3 operator-(float b) const {$/;"	f	class:Vector3
+operator -=	include/Vector.h	/^  inline void operator-=(const Matrix4& b) {$/;"	f	class:Matrix4
+operator -=	include/Vector.h	/^  inline void operator-=(const Vector3& b) {$/;"	f	class:Vector3
+operator -=	include/Vector.h	/^  inline void operator-=(float b) {$/;"	f	class:Vector3
+operator /	include/Vector.h	/^  inline Vector3 operator\/(const Vector3& b) const {$/;"	f	class:Vector3
+operator /	include/Vector.h	/^  inline Vector3 operator\/(float b) const {$/;"	f	class:Vector3
+operator /	include/Vector.h	/^  inline Vector4 operator\/(float b) const {$/;"	f	class:Vector4
+operator /	include/Vector.h	/^inline Vector3 operator\/(float b, const Vector3& v) {$/;"	f
+operator /=	include/Vector.h	/^  inline void operator\/=(const Vector3& b) {$/;"	f	class:Vector3
+operator /=	include/Vector.h	/^  inline void operator\/=(float b) {$/;"	f	class:Matrix4
+operator /=	include/Vector.h	/^  inline void operator\/=(float b) {$/;"	f	class:Vector3
+operator /=	include/Vector.h	/^  inline void operator\/=(float b) {$/;"	f	class:Vector4
+operator /=	include/Vector.h	/^inline void operator\/=(float b, Vector3& v) {$/;"	f
+operator <<	include/Vector.h	/^inline std::ostream& operator<<(std::ostream& out, const Matrix4& m) {$/;"	f
+operator <<	include/Vector.h	/^inline std::ostream& operator<<(std::ostream& out, const Vector3& v) {$/;"	f
+operator <<	include/Vector.h	/^inline std::ostream& operator<<(std::ostream& out, const Vector4& v) {$/;"	f
+override	include/Level1.h	/^  virtual void Load(PObjectVec& objs, PPortalVec& portals, Player& player) override;$/;"	m	class:Level1
+override	include/Level2.h	/^  virtual void Load(PObjectVec& objs, PPortalVec& portals, Player& player) override;$/;"	m	class:Level2
+override	include/Level3.h	/^  virtual void Load(PObjectVec& objs, PPortalVec& portals, Player& player) override;$/;"	m	class:Level3
+override	include/Level4.h	/^  virtual void Load(PObjectVec& objs, PPortalVec& portals, Player& player) override;$/;"	m	class:Level4
+override	include/Level5.h	/^  virtual void Load(PObjectVec& objs, PPortalVec& portals, Player& player) override;$/;"	m	class:Level5
+override	include/Level6.h	/^  virtual void Load(PObjectVec& objs, PPortalVec& portals, Player& player) override;$/;"	m	class:Level6
+override	include/Physical.h	/^  virtual void Reset() override;$/;"	m	class:Physical
+override	include/Physical.h	/^  virtual void Update() override;$/;"	m	class:Physical
+override	include/Player.h	/^  virtual void OnCollide(Object& other, const Vector3& push) override;$/;"	m	class:Player
+override	include/Player.h	/^  virtual void Reset() override;$/;"	m	class:Player
+override	include/Player.h	/^  virtual void Update() override;$/;"	m	class:Player
+override	include/Portal.h	/^  virtual void Draw(const Camera& cam, GLuint curFBO) override;$/;"	m	class:Portal
+p_scale	include/Object.h	/^  float p_scale;$/;"	m	class:Object
+player	include/Engine.h	/^  std::shared_ptr<Player> player;$/;"	m	class:Engine
+pos	include/Object.h	/^  Vector3 pos;$/;"	m	class:Object
+prev_pos	include/Physical.h	/^  Vector3 prev_pos;$/;"	m	class:Physical
+progId	include/Shader.h	/^  GLuint progId;$/;"	m	class:Shader
+projection	include/Camera.h	/^  Matrix4 projection;$/;"	m	class:Camera
+radius	include/Sphere.h	/^  float radius;$/;"	m	class:Sphere
+renderBuf	include/FrameBuffer.h	/^  GLuint renderBuf;$/;"	m	class:FrameBuffer
+scale	include/Object.h	/^  Vector3 scale;$/;"	m	class:Object
+shader	include/Object.h	/^  std::shared_ptr<Shader> shader;$/;"	m	class:Object
+shader	include/Sky.h	/^  std::shared_ptr<Shader> shader;$/;"	m	class:Sky
+sky	include/Engine.h	/^  std::shared_ptr<Sky> sky;$/;"	m	class:Engine
+t1	include/Timer.h	/^  Uint32 t1, t2;$/;"	m	class:Timer
+t2	include/Timer.h	/^  Uint32 t1, t2;$/;"	m	class:Timer
+texId	include/FrameBuffer.h	/^  GLuint texId;$/;"	m	class:FrameBuffer
+texId	include/Texture.h	/^  GLuint texId;$/;"	m	class:Texture
+texture	include/Object.h	/^  std::shared_ptr<Texture> texture;$/;"	m	class:Object
+timer	include/Engine.h	/^  Timer timer;$/;"	m	class:Engine
+toPortal	include/Portal.h	/^    const Portal* toPortal;$/;"	m	struct:Portal::Warp
+type	include/Tunnel.h	/^  Type type;$/;"	m	class:Tunnel
+uvs	include/Mesh.h	/^  std::vector<float> uvs;$/;"	m	class:Mesh
+vObjects	include/Engine.h	/^  std::vector<std::shared_ptr<Object>> vObjects;$/;"	m	class:Engine
+vPortals	include/Engine.h	/^  std::vector<std::shared_ptr<Portal>> vPortals;$/;"	m	class:Engine
+vScenes	include/Engine.h	/^  std::vector<std::shared_ptr<Scene>> vScenes;$/;"	m	class:Engine
+vao	include/Mesh.h	/^  GLuint vao;$/;"	m	class:Mesh
+vbo	include/Mesh.h	/^  GLuint vbo[NUM_VBOS];$/;"	m	class:Mesh
+velocity	include/Physical.h	/^  Vector3 velocity;$/;"	m	class:Physical
+vertId	include/Shader.h	/^  GLuint vertId;$/;"	m	class:Shader
+verts	include/Mesh.h	/^  std::vector<float> verts;$/;"	m	class:Mesh
+w	include/Vector.h	/^  float x, y, z, w;$/;"	m	class:Vector4
+width	include/Camera.h	/^  int width;$/;"	m	class:Camera
+window	include/Engine.h	/^  SDL_Window* window;       \/\/ Window$/;"	m	class:Engine
+worldView	include/Camera.h	/^  Matrix4 worldView;$/;"	m	class:Camera
+x	include/Vector.h	/^  float x, y, z, w;$/;"	m	class:Vector4
+x	include/Vector.h	/^  float x, y, z;$/;"	m	class:Vector3
+y	include/Vector.h	/^  float x, y, z, w;$/;"	m	class:Vector4
+y	include/Vector.h	/^  float x, y, z;$/;"	m	class:Vector3
+z	include/Vector.h	/^  float x, y, z, w;$/;"	m	class:Vector4
+z	include/Vector.h	/^  float x, y, z;$/;"	m	class:Vector3
+~Engine	src/Engine.cpp	/^Engine::~Engine() {$/;"	f	class:Engine
+~Floorplan	include/Floorplan.h	/^  virtual ~Floorplan() {}$/;"	f	class:Floorplan
+~Ground	include/Ground.h	/^  virtual ~Ground() {}$/;"	f	class:Ground
+~House	include/House.h	/^  virtual ~House() {}$/;"	f	class:House
+~Mesh	src/Mesh.cpp	/^Mesh::~Mesh() {$/;"	f	class:Mesh
+~Object	include/Object.h	/^  virtual ~Object() {}$/;"	f	class:Object
+~Pillar	include/Pillar.h	/^  virtual ~Pillar() {}$/;"	f	class:Pillar
+~PillarRoom	include/PillarRoom.h	/^  virtual ~PillarRoom() {}$/;"	f	class:PillarRoom
+~Portal	include/Portal.h	/^  virtual ~Portal() {}$/;"	f	class:Portal
+~Shader	src/Shader.cpp	/^Shader::~Shader() {$/;"	f	class:Shader
+~Statue	include/Statue.h	/^  virtual ~Statue() {}$/;"	f	class:Statue
+~Tunnel	include/Tunnel.h	/^  virtual ~Tunnel() {}$/;"	f	class:Tunnel
